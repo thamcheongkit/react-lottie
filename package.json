@@ -1,10 +1,10 @@
 {
-  "name": "react-lottie",
-  "version": "1.2.3",
+  "name": "@thamcheongkit/react-lottie",
+  "version": "1.2.4",
   "description": "lottie animation view for React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenqingspring/react-lottie"
+    "url": "git+https://github.com/thamcheongkit/react-lottie.git"
   },
   "license": "MIT",
   "scripts": {
@@ -15,9 +15,7 @@
     "testonly": "mocha --require .scripts/mocha_runner src/**/tests/**/*.js",
     "test": "npm run lint && npm run testonly",
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
-    "start": "start-storybook -p 9010",
-    "publish-storybook": "bash .scripts/publish_storybook.sh",
-    "postpublish": "npm run publish-storybook"
+    "start": "start-storybook -p 9010"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
@@ -55,5 +53,10 @@
   "main": "dist/index.js",
   "engines": {
     "npm": "^3.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/thamcheongkit/react-lottie/issues"
+  },
+  "homepage": "https://github.com/thamcheongkit/react-lottie#readme",
+  "author": ""
 }
